@@ -79,6 +79,7 @@ h2{
 menu{
     padding-left: 0px;
     text-align: left;
+    font-weight: bolder ;
 }
 .img{
     text-align: center;
@@ -143,11 +144,9 @@ h3{
     content:'\1f517'
 }
 
-span{
-    display: inline-block;
-    width: 49%;
 
-}
+
+
 #rodape{
     background-color:#1A5C38 ;
     color:white;
@@ -164,4 +163,11 @@ span{
 p{
  text-indent: 30px;
  line-height: 2em;
+}
+ul{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+
+    
 }
